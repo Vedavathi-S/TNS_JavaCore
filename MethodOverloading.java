@@ -1,3 +1,6 @@
+
+//Compile time polymorphism
+
 class Employee{
 	String Name;
 	String Role;

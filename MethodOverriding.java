@@ -75,7 +75,7 @@ class Employee1 extends Company{
 public class MethodOverriding {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//DYNAMIC METHOD DISPATCH
 		Company  c1=new Employee1();//References super class but object is created for Employee class
 		c1.display_info();//displays the employee class method(example of runtime polymorphism)
 		Employee1 e1=new Employee1();

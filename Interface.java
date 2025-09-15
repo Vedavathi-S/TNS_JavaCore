@@ -1,6 +1,7 @@
 // Interface for extra features (since Java doesn't support multiple inheritance)
 
 interface Cycle{
+	int speed=40;
 	void blowup(String song);
 	
 	void speedup(int increment);
@@ -12,7 +13,7 @@ interface Tire{
 }
 
 class Avoncycle implements Cycle,Tire{
-	int speed=40;
+	int speed=45;//overridden variable
 	public void blowup(String song)
 	{
 		System.out.println("Horning-- "+song);
